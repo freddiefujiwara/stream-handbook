@@ -1,12 +1,12 @@
 # introduction
 
-This document covers the basics of how to write [node.js](http://nodejs.org/)
-programs with [streams](http://nodejs.org/docs/latest/api/stream.html).
+これは [streams](http://nodejs.org/docs/latest/api/stream.html) を使った[node.js](http://nodejs.org/)の
+基本的なコーディング方法が記載されています.
 
 ```
-"We should have some ways of connecting programs like garden hose--screw in
-another segment when it becomes necessary to massage data in
-another way. This is the way of IO also."
+"ガーデンハウスのようになにかに接続するプログラムはいくつかの方法で記述できるべきです -- 
+データ他の方法で転送する必要がでてきたら、別のセグメントにねじ込みます
+IOに関してもそうです。
 ```
 
 [Doug McIlroy. October 11, 1964](http://cm.bell-labs.com/who/dmr/mdmpipe.html)
