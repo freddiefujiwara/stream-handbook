@@ -24,13 +24,12 @@ nodeにおいては、組み込みのコアライブラリ
 [stream module](http://nodejs.org/docs/latest/api/stream.html)
 、ユーザ空間(カーネル空間ではなく)のモジュールで使われます。
 UNIXと同様、nodeのstreamモジュールの主要な合成演算子は`.pipe()`と呼ばれ、
-遅い対象への書き出しに対して自由に流量を絞ることができます。
+遅い対象への書き出しに対して自由に調整することができます。
 
-Streams can help to
-[separate your concerns](http://www.c2.com/cgi/wiki?SeparationOfConcerns)
-because they restrict the implementation surface area into a consistent
-interface that can be
-[reused](http://www.faqs.org/docs/artu/ch01s06.html#id2877537).
+Streamsは限定された実装の表面を固定したインターフェースに絞ることで
+[再利用可能](http://www.faqs.org/docs/artu/ch01s06.html#id2877537)
+にし、[関心を分離](http://www.c2.com/cgi/wiki?SeparationOfConcerns)
+します。
 You can then plug the output of one stream to the input of another and
 [use libraries](http://npmjs.org) that operate abstractly on streams to
 institute higher-level flow control.
