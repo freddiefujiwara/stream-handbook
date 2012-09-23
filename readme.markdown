@@ -30,9 +30,9 @@ Streamsは限定された実装の表面を固定したインターフェース�
 [再利用可能](http://www.faqs.org/docs/artu/ch01s06.html#id2877537)
 にし、[関心を分離](http://www.c2.com/cgi/wiki?SeparationOfConcerns)
 します。
-You can then plug the output of one stream to the input of another and
-[use libraries](http://npmjs.org) that operate abstractly on streams to
-institute higher-level flow control.
+出力streamから入力streamにつなげることができます。
+また、
+[抽象的にストリームを操作するライブラリを使う](http://npmjs.org) とハイレベルなフローコントロールが導入できます。
 
 Streams are an important component of
 [small-program design](https://michaelochurch.wordpress.com/2012/08/15/what-is-spaghetti-code/)
