@@ -34,9 +34,9 @@ Streamsは限定された実装の表面を固定したインターフェース�
 また、
 [抽象的にストリームを操作するライブラリを使う](http://npmjs.org) とハイレベルなフローコントロールが導入できます。
 
-Streams are an important component of
-[small-program design](https://michaelochurch.wordpress.com/2012/08/15/what-is-spaghetti-code/)
-and [unix philosophy](http://www.faqs.org/docs/artu/ch01s06.html)
+Streams は
+[小さななプログラム設計](https://michaelochurch.wordpress.com/2012/08/15/what-is-spaghetti-code/)
+他にも構成する重要な要素です。
 but there are many other important abstractions worth considering.
 Just remember that [technical debt](http://c2.com/cgi/wiki?TechnicalDebt)
 is the enemy and to seek the best abstractions for the problem at hand.
