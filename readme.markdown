@@ -1,4 +1,4 @@
-# introduction
+# 導入
 
 これは [streams](http://nodejs.org/docs/latest/api/stream.html) を使った[node.js](http://nodejs.org/)の
 基本的なコーディング方法が記載されています.
@@ -15,12 +15,11 @@ IOに関してもそうです。
 
 ***
 
-Streams come to us from the
-[earliest days of unix](http://www.youtube.com/watch?v=tc4ROCJYbm0)
-and have proven themselves over the decades as a dependable way to compose large
-systems out of small components that
+Streams は
+[unixの早期段階](http://www.youtube.com/watch?v=tc4ROCJYbm0)
+からあり、何十年にもわたって大きなシステムを小さなコンポーネントで構築できる信頼できる方法であることを証明してきました。
 [do one thing well](http://www.faqs.org/docs/artu/ch01s06.html).
-In unix, streams are implemented by the shell with `|` pipes.
+streams are implemented by the shell with `|` pipes.
 In node, the built-in
 [stream module](http://nodejs.org/docs/latest/api/stream.html)
 is used by the core libraries and can also be used by user-space modules.
