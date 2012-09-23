@@ -17,15 +17,14 @@ IOに関してもそうです。
 
 Streams は
 [unixの早期段階](http://www.youtube.com/watch?v=tc4ROCJYbm0)
-からあり、何十年にもわたって大きなシステムを小さなコンポーネントで構築できる信頼できる方法であることを証明してきました。
+からあり、何十年にもわたって大きなシステムを小さなコンポーネントで構築できる信頼できる方法であることを証明してきました
 [do one thing well](http://www.faqs.org/docs/artu/ch01s06.html).
-streams are implemented by the shell with `|` pipes.
-In node, the built-in
+streams はUNIXのシェルの`|`(パイプ)として実装されてます。
+nodeにおいては、組み込みのコアライブラリ
 [stream module](http://nodejs.org/docs/latest/api/stream.html)
-is used by the core libraries and can also be used by user-space modules.
-Similar to unix, the node stream module's primary composition operator is called
-`.pipe()` and you get a backpressure mechanism for free to throttle writes for
-slow consumers.
+、ユーザ空間(カーネル空間ではなく)のモジュールで使われます。
+UNIXと同様、nodeのstreamモジュールの主要な合成演算子は`.pipe()`と呼ばれ、
+遅い対象への書き出しに対して自由に流量を絞ることができます。
 
 Streams can help to
 [separate your concerns](http://www.c2.com/cgi/wiki?SeparationOfConcerns)
